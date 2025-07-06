@@ -1,0 +1,8 @@
+streamlit
+pandas
+folium
+geopandas
+shapely
+streamlit-folium
+requests
+branca
