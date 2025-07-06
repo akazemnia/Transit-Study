@@ -136,10 +136,21 @@ else:
 # Create folium map
 m = folium.Map(location=[39.3, -76.6], zoom_start=10, tiles="cartodbpositron")
 
-max_pop_density = int(merged["pop_density"].clip(upper=10000).max() // 1000 + 1) * 1000
-bins = list(range(0, max_pop_density + 1000, max_pop_density // 20))
-colormap = cm.linear.YlOrRd_09.scale(0, max_pop_density)
-colormap = cm.linear.YlOrRd_09.scale(0, max_pop_density).to_step(n=len(bins))
+import numpy as np
+
+
+# Step 1: Filter or clip to remove zero or near-zero values
+filtered_pop = merged["pop_density"].clip(lower=1)
+
+# Step 2: Define number of bins
+num_bins = 10
+
+# Step 3: Define logarithmic bins from min to max (after clipping)
+min_val = filtered_pop.min()
+max_val = filtered_pop.max()
+bins = np.logspace(np.log10(min_val), np.log10(max_val), num=num_bins)
+# Optional: convert to regular Python list if needed
+bins = bins.tolist()
 
 
 # Add choropleth layer with explicit threshold scale
@@ -159,9 +170,6 @@ if show_population and merged is not None:
         highlight=True,
         smooth_factor=0,
     ).add_to(m)
-    # Add the separate colormap control to map
-    colormap.caption = 'Population Density (people per km²)'
-    colormap.add_to(m)
 
 # Function to draw GTFS routes/stops
 def plot_gtfs(folder, color, label):
