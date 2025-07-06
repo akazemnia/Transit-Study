@@ -160,7 +160,7 @@ if show_population and merged is not None:
     folium.Choropleth(
         geo_data=merged,
         name="Population Density",
-        data=np.log10(merged),
+        data=np.log10(merged['pop_density'].clip(lower=1)),
         columns=["GEOID", "pop_density"],
         key_on="feature.properties.GEOID",
         fill_color="YlOrRd",
