@@ -130,28 +130,17 @@ if population_df is not None and shapes_gdf is not None:
     merged = merged[merged["population"].notna() & (merged["population"] > 0)]
     merged["area_km2"] = merged.geometry.to_crs(epsg=3857).area / 1e6
     merged["pop_density"] = merged["population"] / merged["area_km2"]  
+    merged["pop_density"] = merged["pop_density"].clip(upper = 14000)
 else:
     merged = None
 
 # Create folium map
 m = folium.Map(location=[39.3, -76.6], zoom_start=10, tiles="cartodbpositron")
 
-import numpy as np
-
-
-# Step 1: Filter or clip to remove zero or near-zero values
-filtered_pop = merged["pop_density"].clip(lower=1)
-
-# Step 2: Define number of bins
-num_bins = 10
-
-# Step 3: Define logarithmic bins from min to max (after clipping)
-min_val = filtered_pop.min()
-max_val = filtered_pop.max()
-bins = np.logspace(np.log10(min_val), np.log10(max_val), num=num_bins)
-bins = np.insert(bins, 0, 0)  # Optional: include 0 as lower bound
-# Convert bins to list and ensure they are sorted ascending
-bins = sorted(bins.tolist())
+max_pop_density = int(merged["pop_density"].max() // 1000 + 1) * 1000
+bins = list(range(0, max_pop_density + 1000, max_pop_density // 10))
+colormap = cm.linear.YlOrRd_09.scale(0, max_pop_density)
+colormap = cm.linear.YlOrRd_09.scale(0, max_pop_density).to_step(n=len(bins))
 
 
 # Add choropleth layer with explicit threshold scale
@@ -160,7 +149,7 @@ if show_population and merged is not None:
     folium.Choropleth(
         geo_data=merged,
         name="Population Density",
-        data=np.log10(merged['pop_density'].clip(lower=1)),
+        data=merged,
         columns=["GEOID", "pop_density"],
         key_on="feature.properties.GEOID",
         fill_color="YlOrRd",
@@ -171,6 +160,9 @@ if show_population and merged is not None:
         highlight=True,
         smooth_factor=0,
     ).add_to(m)
+    # Add the separate colormap control to map
+    #colormap.caption = 'Population Density (people per km²)'
+    #colormap.add_to(m)
 
 # Function to draw GTFS routes/stops
 def plot_gtfs(folder, color, label):
