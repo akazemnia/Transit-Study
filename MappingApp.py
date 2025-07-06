@@ -136,7 +136,7 @@ else:
 # Create folium map
 m = folium.Map(location=[39.3, -76.6], zoom_start=10, tiles="cartodbpositron")
 
-max_pop_density = int(merged["pop_density"].max() // 1000 + 1) * 1000
+max_pop_density = int(merged["pop_density"].clip(upper=10000) // 1000 + 1) * 1000
 bins = list(range(0, max_pop_density + 1000, max_pop_density // 20))
 colormap = cm.linear.YlOrRd_09.scale(0, max_pop_density)
 colormap = cm.linear.YlOrRd_09.scale(0, max_pop_density).to_step(n=len(bins))
