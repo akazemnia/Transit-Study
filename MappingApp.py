@@ -149,8 +149,9 @@ num_bins = 10
 min_val = filtered_pop.min()
 max_val = filtered_pop.max()
 bins = np.logspace(np.log10(min_val), np.log10(max_val), num=num_bins)
-# Optional: convert to regular Python list if needed
-bins = bins.tolist()
+bins = np.insert(bins, 0, 0)  # Optional: include 0 as lower bound
+# Convert bins to list and ensure they are sorted ascending
+bins = sorted(bins.tolist())
 
 
 # Add choropleth layer with explicit threshold scale
@@ -159,7 +160,7 @@ if show_population and merged is not None:
     folium.Choropleth(
         geo_data=merged,
         name="Population Density",
-        data=merged,
+        data=np.log10(merged),
         columns=["GEOID", "pop_density"],
         key_on="feature.properties.GEOID",
         fill_color="YlOrRd",
