@@ -1,0 +1,12 @@
+fare_product_id,fare_product_name,amount,currency,rider_category_id
+core_local_oneway_fare,One Way Full Fare,2.00,USD,
+core_local_1_day_fare,1-Day Pass - Core Service,4.60,USD,
+core_local_31_day_fare,31-Day Pass - Core Service,77.00,USD,
+core_local_7_day_fare,7-Day Pass - Core Service,22.00,USD,
+reduced_disability_oneway_fare,One Way Senior/Disability Fare,1.00,USD,dis
+reduced_disability_local_1_day_fare,Reduced Disability 1-Day Pass - Core Service,2.30,USD,dis
+reduced_disability_local_31_day_fare,Reduced Disability 31-Day Pass - Core Service,23.00,USD,dis
+reduced_senior_one_way_fare,One Way Senior/Disability Fare,1.00,USD,sen
+reduced_senior_local_1_day_fare,Reduced Senior 1-Day Pass - Core Service,2.30,USD,sen
+reduced_senior_local_31_day_fare,Reduced Senior 31-Day Pass - Core Service,23.00,USD,sen
+reduced_student_oneway_fare,One Way Student Fare,1.50,USD,stu

@@ -1,0 +1,3 @@
+route_id,direction_id,direction
+11682,0,Eastbound
+11682,1,Westbound

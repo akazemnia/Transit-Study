@@ -1,0 +1,7 @@
+level_id,level_index,level_name
+L0,0,ground level
+L1,1,second level
+L2,2,third level
+L3,-1,underground level 1
+L4,-2,underground level 2
+L5,-3,underground level 3

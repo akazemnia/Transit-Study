@@ -1,0 +1,320 @@
+pathway_id,from_stop_id,to_stop_id,pathway_mode,is_bidirectional,traversal_time,signposted_as,reversed_signposted_as
+ome1f1,ome0001,omf0001,1,1,70,To Trains,To Parking Lots C&D
+ome2f1,ome0002,omf0001,1,1,50,To Trains,To Parking Garage
+omf1g1,omf0001,omg0001,1,1,50,the escalator,To Street
+omf1g2,omf0001,omg0002,1,1,50,the stairs,To Street
+omf1g3,omf0001,omg0003,1,1,10,the escalator,To Street
+omf1g4,omf0001,omg0004,1,1,40,the stairs,To Street
+omf1g5,omf0001,omg0005,1,1,10,the elevator,To Street
+omg1es01p1,omg0001,omp0001,4,0,30,To Trains,
+omg2st01p1,omg0002,omp0001,2,1,40,To Trains,To Street
+omp1es02g3,omp0001,omg0003,4,0,30,To Street,
+omg4st02p1,omg0004,omp0001,2,1,40,To Trains,To Street
+omg5el01p1,omg0005,omp0001,5,1,30,To Trains,To Street
+omp1s1,omp0001,7500,1,1,5,the boarding area,the platform
+oce1f1,oce0001,ocf0001,1,1,120,To Trains,To Parking
+ocf1g1,ocf0001,ocg0001,1,1,10,the escalator,To Street
+ocf1g2,ocf0001,ocg0002,1,1,10,the stairs,To Street
+ocf1g3,ocf0001,ocg0003,1,1,10,the escalator,To Street
+ocf1g4,ocf0001,ocg0004,1,1,10,the stairs,To Street
+ocf1g5,ocf0001,ocg0005,1,1,5,the elevator,To Street
+ocg1es01p1,ocg0001,ocp0001,4,0,25,To Trains,
+ocg2st01p1,ocg0002,ocp0001,2,1,20,To Trains,To Street
+ocp1es02g3,ocp0001,ocg0003,4,0,25,To Street,
+ocg4st02p1,ocg0004,ocp0001,2,1,20,To Trains,To Street
+ocg5el01p1,ocg0005,ocp0001,5,1,25,To Trains,To Street
+ocp1s2nb,ocp0001,7522,1,1,5,the boarding area,the platform
+ocp1sesb,ocp0001,10906,1,1,5,the boarding area,the platform
+mme1f1,mme0001,mmf0001,1,1,10,To Trains,To Street
+mmf1g1,mmf0001,mmg0001,1,1,10,the escalator,To Street
+mmf1g2,mmf0001,mmg0002,1,1,10,the escalator,To Street
+mmf1g3,mmf0001,mmg0003,1,1,5,the elevator,To Street
+mmf1g4,mmf0001,mmg0004,1,1,30,the stairs,To Street
+mmg1es01p1,mmg0001,mmp0001,4,0,35,To Trains,
+mmp1es02g2,mmp0001,mmg0002,4,0,35,To Street,
+mmg3el01p1,mmg0003,mmp0001,5,1,40,To Trains,To Street
+mmg4st01p1,mmg0004,mmp0001,2,1,30,To Trains,To Street
+mmp1s3nb,mmp0001,7520,1,1,5,the boarding area,the platform
+mmp1s3sb,mmp0001,11422,1,1,5,the boarding area,the platform
+rpe1es01g1,rpe0001,rpg0001,4,0,25,To Trains,
+rpg1es02e1,rpg0001,rpe0001,4,0,25,To Parking,
+rpe1st01g1,rpe0001,rpg0001,2,1,20,To Trains,To Parking
+rpe2es03g2,rpe0002,rpg0002,4,0,30,To Trains,
+rpg2es04e2,rpg0002,rpe0002,4,0,30,To Wabash Avenue,
+rpe2st02g2,rpe0002,rpg0002,2,1,25,To Trains,To Wabash Avenue
+rpe3el02g8,rpe0003,rpg0008,5,1,25,To Trains,To Wabash Avenue
+rpg8g3,rpg0008,rpg0003,1,1,10,To Trains,To Parking
+rpe4el01g6,rpe0004,rpg0006,5,1,25,To Trains,To Street
+rpg1g3,rpg0001,rpg0003,1,1,60,To Trains,To Street
+rpg2g3,rpg0002,rpg0003,1,1,10,To Trains,To Street
+rpg3f1,rpg0003,rpf0001,1,1,10,To Trains,To Street
+rpf1g4,rpf0001,rpg0004,1,1,10,the escalator,To Street
+rpf1g5,rpf0001,rpg0005,1,1,30,the escalator,To Street
+rpf1g6,rpf0001,rpg0006,1,1,70,the elevator,To Street
+rpf1g7,rpf0001,rpg0007,1,1,50,the stairs,To Street
+rpg4es05p1,rpg0004,rpp0001,4,0,30,To Trains,
+rpp1es06g5,rpp0001,rpg0005,4,0,30,To Street,
+rpg6el01p1,rpg0006,rpp0001,5,1,25,To Trains,To Street
+rpg7st03p1,rpg0007,rpp0001,2,1,30,To Trains,To Street
+rpp1s4nb,rpp0001,7519,1,1,5,the boarding area,the platform
+rpp1s4sb,rpp0001,4819,1,1,5,the boarding area,the platform
+rae1es1g1,rae0001,rag0001,4,0,25,To Trains,
+rag1es2e1,rag0001,rae0001,4,0,25,To Street,
+rae1st1g1,rae0001,rag0001,2,1,20,To Trains,To Street
+rae2g2,rae0002,rag0002,1,1,20,To Trains,Parking
+rae3el01g6,rae0003,rag0006,5,1,20,To Trains,To Street
+rag1g3,rag0001,rag0003,1,1,10,To Trains,To Street
+rag2g3,rag0002,rag0003,1,1,5,To Trains,Parking
+rag3f1,rag0003,raf0001,1,1,10,To Trains,To Street
+raf1g4,raf0001,rag0004,1,1,10,the escalator,To Street
+raf1g5,raf0001,rag0005,1,1,30,the escalator,To Street
+raf1g6,raf0001,rag0006,1,1,70,the elevator,To Street
+raf1g7,raf0001,rag0007,1,1,50,the stairs,To Street
+rag4es03p1,rag0004,rap0001,4,0,30,To Trains,
+rap1es04g5,rap0001,rag0005,4,0,30,To Street,
+rag6el01p1,rag0006,rap0001,5,1,20,To Trains,To Street
+rag7st02p1,rag0007,rap0001,2,1,25,To Trains,To Street
+rap1s5nb,rap0001,10420,1,1,5,the boarding area,the platform
+rap1s5sn,rap0001,10419,1,1,5,the boarding area,the platform
+wce1es01g1,wce0001,wcg0001,4,0,25,To Trains,
+wcg1es02e1,wcg0001,wce0001,4,0,25,To #33 Bus,
+wce1st01g1,wce0001,wcg0001,2,1,20,To Trains,To #33 Bus
+wce2el01g2,wce0002,wcg0002,5,1,25,To Trains,To Parking
+wce3el02g6,wce0003,wcg0006,5,1,25,To Trains,To Street
+wcg1g3,wcg0001,wcg0003,1,1,5,To Trains,To Street
+wcg2g3,wcg0002,wcg0003,1,1,20,To Trains,To Parking
+wcg3f1,wcg0003,wcf0001,1,1,10,To Trains,To Street
+wcf1g4,wcf0001,wcg0004,1,1,5,the escalator,To Street
+wcf1g5,wcf0001,wcg0005,1,1,20,the escalator,To Street
+wcf1g6,wcf0001,wcg0006,1,1,60,the elevator,To Street
+wcf1g7,wcf0001,wcg0007,1,1,40,the stairs,To Street
+wcg4es03p1,wcg0004,wcp0001,4,0,30,To Trains,
+wcp1es04g5,wcp0001,wcg0005,4,0,30,To Street,
+wcg6el02p1,wcg0006,wcp0001,5,1,25,To Trains,To Street
+wcg7st02p1,wcg0007,wcp0001,2,1,20,To Trains,To Street
+wcp1s6nb,wcp0001,5584,1,1,5,the boarding area,the platform
+wcp1s6sb,wcp0001,5585,1,1,5,the boarding area,the platform
+mde1es01g1,mde0001,mdg0001,4,0,60,To Trains,
+mdg1es02e1,mdg0001,mde0001,4,0,60,To Street,
+mde1st01g1,mde0001,mdg0001,2,1,60,To Trains,To Street
+mde2el01g2,mde0002,mdg0002,5,1,40,To Trains,To Street
+mdg1f1,mdg0001,mdf0001,1,1,15,To Trains,To Street
+mdg2f1,mdg0002,mdf0001,1,1,5,To Trains,To Street
+mdf1g3,mdf0001,mdg0003,1,1,20,the escalator,To Street
+mdf1g4,mdf0001,mdg0004,1,1,30,the escalator,To Street
+mdf1g5,mdf0001,mdg0005,1,1,80,the elevator,To Street
+mdf1g6,mdf0001,mdg0006,1,1,50,the stairs,To Street
+mdg3es03p1,mdg0003,mdp0001,4,0,60,To Trains,
+mdp1es04g4,mdp0001,mdg0004,4,0,60,To Street,
+mdg5el02p1,mdg0005,mdp0001,5,1,40,To Trains,To Street
+mdg6st02p1,mdg0006,mdp0001,2,1,50,To Trains,To Street
+mdp1s7nb,mdp0001,7517,1,1,5,the boarding area,the platform
+mdp1s7sb,mdp0001,7503,1,1,5,the boarding area,the platform
+pne1es08g1,pne0001,png0001,4,0,60,To Trains,
+png1es09e1,png0001,pne0001,4,0,60,Westbound Buses,
+pne1st01g1,pne0001,png0001,2,1,50,To Trains,Westbound Buses
+pne2es01g2,pne0002,png0002,4,0,60,To Trains,
+png2es02e2,png0002,pne0002,4,0,60,Eastbound Buses,
+pne2st02g2,pne0002,png0002,2,1,50,To Trains,Eastbound Buses
+pne3el01g3,pne0003,png0003,5,1,30,To Trains,To Street
+png1f1,png0001,pnf0001,1,1,10,To Trains,To Street
+png2f2,png0002,pnf0001,1,1,10,To Trains,To Street
+png3f3,png0003,pnf0001,1,1,10,To Trains,To Street
+pnf1g4,pnf0001,png0004,1,1,10,the escalator,To Street
+pnf1g5,pnf0001,png0005,1,1,10,the escalator,To Street
+pnf1g6,pnf0001,png0006,1,1,10,the escalator,To Street
+pnf1g7,pnf0001,png0007,1,1,10,the elevator,To Street
+pnf1g8,pnf0001,png0008,1,1,10,the stairs,To Street
+png4es03g9,png0004,png0009,4,0,50,To Trains,
+png9es04g5,png0009,png0005,4,0,50,To Street,
+png9es05g6,png0009,png0006,4,0,50,To Street,
+png7el02p1,png0007,pnp0001,5,1,40,To Trains,To Street
+png8st03g9,png0008,png0009,2,1,50,To Trains,To Street
+png9g10,png0009,png0010,1,1,20,To Trains,To Street
+png9g11,png0009,png0011,1,1,30,To Trains,To Street
+png9g12,png0009,png0012,1,1,50,To Trains,To Street
+png10es06p1,png0010,pnp0001,4,0,30,To Trains,
+pnp1es07g11,png0011,pnp0001,4,0,30,To Street,
+png12st04p1,png0012,pnp0001,2,1,30,To Trains,To Street
+pnp1s8nb,pnp0001,7516,1,1,5,the boarding area,the platform
+pnp1s8sb,pnp0001,7504,1,1,5,the boarding area,the platform
+upe1es01g1,upe0001,upg0001,4,0,80,To Trains,
+upg1es02e1,upg0001,upe0001,4,0,80,To Street,
+upe1st01g1,upe0001,upg0001,2,1,70,To Trains,To Street
+upe2el01g2,upe0002,upg0002,5,1,50,To Trains,To Street
+upg1f1,upg0001,upf0001,1,1,15,To Trains,To Street
+upg2f1,upg0002,upf0001,1,1,30,To Trains,To Street
+upf1g3,upf0001,upg0003,1,1,25,the escalator,To Street
+upf1g4,upf0001,upg0004,1,1,20,the escalator,To Street
+upf1g5,upf0001,upg0005,1,1,60,the elevator,To Street
+upf1g6,upf0001,upg0006,1,1,40,the stairs, To Street
+upg3es03p1,upg0003,upp0001,4,0,30,To Trains,
+upp1es04g4,upp0001,upg0004,4,0,30,To Street,
+upg5el02p1,upg0005,upp0001,5,1,30,To Trains,To Street
+upg6st02p1,upg0006,upp0001,2,1,30,To Trains,To Street
+upp1s9nb,upp0001,7515,1,1,5,the boarding area,the platform
+upp1s9sb,upp0001,7505,1,1,5,the boarding area,the platform
+sce1es01g1,sce0001,scg0001,4,0,45,To Trains,
+scg1es02e1,scg0001,sce0001,4,0,45,To Street,
+sce1st01g1,sce0001,scg0001,2,1,40,To Trains,To Street
+sce2el01g2,sce0002,scg0002,5,1,30,To Trains,To Street
+scg1f1,scg0001,scf0001,1,1,30,To Trains,To Street
+scg1f2,scg0001,scf0002,1,1,25,To Trains,To Street
+scg2f1,scg0002,scf0001,1,1,25,To Trains,To Street
+scg2f2,scg0002,scf0002,1,1,30,To Trains,To Street
+scf1g3,scf0001,scg0003,1,1,25,the escalator,To Street
+scf1g4,scf0001,scg0004,1,1,25,the escalator,To Street
+scf1g5,scf0001,scg0005,1,1,35,the stairs,To Street
+scf2g6,scf0002,scg0006,1,1,20,the escalator,To Street
+scf2g7,scf0002,scg0007,1,1,20,the escalator,To Street
+scf2g8,scf0002,scg0008,1,1,25,the stairs,To Street
+scf2g9,scf0002,scg0009,1,1,45,the elevator,To Street
+scg3es05p1,scg0003,scp0001,4,0,25,To Trains,
+scp1es06g4,scp0001,scg0004,4,0,25,To Street,
+scg5st02p1,scg0005,scp0001,2,1,20,To Trains,To Street
+scg6es03p1,scg0006,scp0001,4,0,20,To Trains,
+scp1es04g7,scp0001,scg0007,4,0,20,To Street,
+scg8st03p1,scg0008,scp0001,2,1,20,To Trains,To Street
+scg9el02p1,scg0009,scp0001,5,1,30,To Trains,To Street
+scp1s10nb,scp0001,7514,1,1,5,the boarding area,the platform
+scp1s10sb,scp0001,7506,1,1,5,the boarding area,the platform
+lme1es01g1,lme0001,lmg0001,4,0,30,To Trains,
+lmg1es02e1,lmg0001,lme0001,4,0,30,To Lexington Street,
+lme1st01g1,lme0001,lmg0001,2,1,30,To Trains,To Lexington Street
+lme2es09g2,lme0002,lmg0002,4,0,30,To Trains,
+lmg2es10e2,lmg0002,lme0002,4,0,30,To Saratoga Street,
+lme2st02g2,lme0002,lmg0002,2,1,30,To Trains,To Saratoga Street
+lme3el01g3,lme0003,lmg0003,5,1,35,To Trains,To Saratoga Street
+lmg1f1,lmg0001,lmf0001,1,1,40,To Trains,To Lexington Street
+lmg2f2,lmg0002,lmf0002,1,1,20,To Trains,To Saratoga Street
+lmg3f2,lmg0003,lmf0002,1,1,15,To Trains,To Saratoga Street
+lmf1f2,lmf0001,lmf0002,1,1,150,To Saratoga Street,To Lexington Street
+lmf1g4,lmf0001,lmg0004,1,1,10,To Trains,To Street
+lmf1g5,lmf0001,lmg0005,1,1,10,To Trains,To Street
+lmf1g6,lmf0001,lmg0006,1,1,10,To Trains,To Street
+lmg4es03p1,lmg0004,lmp0001,4,0,45,To Trains,
+lmp1es04g5,lmp0001,lmg0005,4,0,45,To Street,
+lmg6st03p1,lmg0006,lmp0001,2,1,35,To Trains,To Street
+lmf2g7,lmf0002,lmg0007,1,1,25,To Trains,To Street
+lmf2g8,lmf0002,lmg0008,1,1,25,To Trains,To Street
+lmf2g9,lmf0002,lmg0009,1,1,25,To Trains,To Street
+lmg7es7g10,lmg0007,lmg0010,4,0,25,To Trains,
+lmg10es8g8,lmg0010,lmg0008,4,0,25,To Street,
+lmg9st4g10,lmg0009,lmg0010,2,1,25,To Trains,To Street
+lmg10g11,lmg0010,lmg0011,1,1,20,To Trains,To Street
+lmg10g12,lmg0010,lmg0012,1,1,20,To Trains,To Street
+lmg1g13,lmg0001,lmg0013,1,1,20,To Trains,To Street
+lmg10g14,lmg0010,lmg0014,1,1,20,To Trains,To Street
+lmp1es05g11,lmp0001,lmg0011,4,0,25,To Street,
+lmg12es06p1,lmg0012,lmp0001,4,0,25,To Trains,
+lmg13el02p1,lmg0013,lmp0001,5,1,40,To Trains,To Street
+lmg14st05p1,lmg0014,lmp0001,2,1,25,To Trains,To Street
+lmp1s11nb,lmp0001,7513,1,1,5,the boarding area,the platform
+lmp1s11sb,lmp0001,7507,1,1,5,the boarding area,the platform
+cce1es11g1,cce0001,ccg0001,4,0,50,To Trains,
+ccg1es12e1,ccg0001,cce0001,4,0,50,To Charles Street,
+cce1st01g1,cce0001,ccg0001,2,1,40,To Trains,To Charles Street
+cce2es01g2,cce0002,ccg0002,4,0,50,To Trains,
+ccg2es02e2,ccg0002,cce0002,4,0,50,To Calvert Street,
+cce2st02g2,cce0002,ccg0002,2,1,50,To Trains,To Calvert Street
+cce3el01g18,cce0003,ccg0018,5,1,20,To Trains,To Charles Street
+ccg18el01g17,ccg0018,ccg0017,5,1,20,To Trains,To Charles Street
+ccg17f1,ccg0017,ccf0001,1,1,15,To Trains,To Charles Street
+ccg18g3,ccg0018,ccg0003,1,1,10,To Charles Street,the elevator
+ccg1g3,ccg0001,ccg0003,1,1,25,TO Trains,To Charles Street
+ccg2f2,ccg0002,ccf0002,1,1,25,To Trains,To Calvert Street
+ccg3f2,ccg0003,ccf0002,1,1,200,Calvert Street,Charles Street
+ccg3es09g4,ccg0003,ccg0004,4,0,25,To Trains,
+ccg5es10g3,ccg0005,ccg0003,4,0,25,To Street,
+ccg3st03g6,ccg0003,ccg0006,2,1,25,To Trains,To Street
+ccg4f1,ccg0004,ccf0001,1,1,30,To Trains,To Charles Street
+ccg5f1,ccg0005,ccf0001,1,1,30,To Trains,To Charles Street
+ccg6f1,ccg0006,ccf0001,1,1,30,To Trains,To Charles Street
+ccf1g7,ccf0001,ccg0007,1,1,20,the escalator,To Street
+ccf1g8,ccf0001,ccg0008,1,1,30,the escalator,To Street
+ccf1g9,ccf0001,ccg0009,1,1,15,the elevator,To Street
+ccf1g10,ccf0001,ccg0010,1,1,40,the stairs,To Street
+ccg10g14,ccg0010,ccg0014,1,1,40,To Charles Street,To Calvert Street
+ccg7es7p1,ccg0007,ccp0001,4,0,25,To Trains,
+ccp1es8g8,ccp0001,ccg0008,4,0,25,To Street,
+ccg9el02p1,ccg0009,ccp0001,5,1,25,To Trains,To Street
+ccg10st04p1,ccg0010,ccp0001,2,1,20,To Trains,To Street
+ccf2g11,ccf0002,ccg0011,1,1,15,To Trains,To Calvert Street
+ccf2g12,ccf0002,ccg0012,1,1,15,To Trains,To Calvert Street
+ccf2g13,ccf0002,ccg0013,1,1,15,To Trains,To Calvert Street
+ccg11es03g14,ccg0011,ccg0014,4,0,25,To Trains,
+ccg14es04g12,ccg0014,ccg0012,4,0,25,To Calvert Street,
+ccg13st05g14,ccg0013,ccg0014,2,1,25,To Trains,To Calvert Street
+ccg14g15,ccg0014,ccg0015,1,1,25,the escalator,To Street
+ccg14g16,ccg0014,ccg0016,1,1,35,the escalator,To Street
+ccg15es05p1,ccg0015,ccp0001,4,0,25,To Trains,
+ccp1es06g16,ccp0001,ccg0016,4,0,25,To Street,
+ccp1s12nb,ccp0001,7512,1,1,5,the boarding area,the platform
+ccp1s12sb,ccp0001,7508,1,1,5,the boarding area,the platform
+ste1es05g1,ste0001,stg0001,4,0,45,To Trains,
+stg1es06e1,stg0001,ste0001,4,0,45,To West Entrance,
+ste1st01g1,ste0001,stg0001,2,1,45,To Trains,To West Entrance
+ste2es01g2,ste0002,stg0002,4,0,50,To Trains,
+stg2es02e2,stg0002,ste0002,4,0,50,To East Entrance,
+ste2st02g2,ste0002,stg0002,2,1,50,To Trains,To East Entrance
+ste3el02g3,ste0003,stg0003,5,1,45,To Trains,To West Entrance Street
+ste4el03g4,ste0004,stg0004,5,1,45,To Trains,To East Entrance Street
+stg1f1,stg0001,stf0001,1,1,40,To Trains,To West Entrance
+stg2f1,stg0002,stf0001,1,1,50,To Trains,To East Entrance
+stg3f1,stg0003,stf0001,1,1,20,To Trains,To West Entrance
+stg4f1,stg0004,stf0001,1,1,60,To Trains,To East Entrance
+stf1g5,stf0001,stg0005,1,1,10,the escalator,To Street
+stf1g6,stf0001,stg0006,1,1,10,the stairs,To Street
+stf1g7,stf0001,stg0007,1,1,10,the escalator,To Street
+stf1g8,stf0001,stg0008,1,1,10,the stairs,To Street
+stf1g9,stf0001,stg0009,1,1,30,the elevator,To Street
+stf1g10,stf0001,stg0010,1,1,25,the stairs,To Street
+stp1es04g5,stg0005,stp0001,4,0,20,To Street,
+stg6st04p1,stg0006,stp0001,2,1,20,To Trains,To Street
+stg7es03p1,stg0007,stp0001,4,0,20,To Trains,
+stg8st03p1,stg0008,stp0001,2,1,20,To Trains,To Street
+stg9el01p1,stg0009,stp0001,5,1,30,To Trains,To Street
+stg10st05p1,stg0010,stp0001,2,1,20,To Trains,To Street
+stp1s13nb,stp0001,7509,1,1,5,the boarding area,the platform
+stp1s13sb,stp0001,7511,1,1,5,the boarding area,the platform
+jhe1es09g1,jhe0001,jhg0001,4,0,30,To Trains,
+jhg1es10e1,jhg0001,jhe0001,4,0,30,To Street,
+jhe1st01g1,jhe0001,jhg0001,2,1,30,To Trains,To Street
+jhe2es01g2,jhe0002,jhg0002,4,0,45,To Trains,
+jhg2es02e2,jhg0002,jhe0002,4,0,45,To Street,
+jhe2st02g2,jhe0002,jhg0002,2,1,45,To Trains,To Street
+jhe3el01g3,jhe0003,jhg0003,5,1,25,To Trains,To Street
+jhg3el01g8,jhg0003,jhg0008,5,1,25,To Trains,To Street
+jhe4el04g4,jhe0004,jhg0004,5,1,30,To Trains,To Street
+jhe5g5,jhe0005,jhg0005,1,1,10,To Trains,To Hospital
+jhg1g5,jhg0001,jhe0005,1,1,5,To Trains,To Street
+jhg3g5,jhg0003,jhg0005,1,1,5,To Trains,the elevator
+jhg5g6,jhg0005,jhg0006,1,1,5,the escalator,To South Entrance
+jhg5g7,jhg0005,jhg0007,1,1,5,the escalator,To South Entrance
+jhg5g9,jhg0005,jhg0009,1,1,5,the stairs,To South Entrance
+jhg6es07f1,jhg0006,jhf0001,4,0,25,To Trains,
+jhf1es08g7,jhf0001,jhg0007,4,0,25,To South Entrance,
+jhg8f1,jhg0008,jhf0001,5,1,30,To Trains,the elevator
+jhg9st03f1,jhg0009,jhf0001,2,1,25,To Trains,To South Entrance
+jhf1g10,jhf0001,jhg0010,1,1,10,the escalator,To Street
+jhf1g11,jhf0001,jhg0011,1,1,10,the escalator,To Street
+jhf1g12,jhf0001,jhg0012,1,1,40,the elevator,To Street
+jhf1g13,jhf0001,jhg0013,1,1,10,the stairs,To Street
+jhg10es05p1,jhg0010,jhp0001,4,0,35,To Trains,
+jhp1es06g10,jhp0001,jhg0011,4,0,35,To Street,
+jhg10el02p1,jhg0012,jhp0001,5,1,30,To Trains,To Street
+jhg13st04p1,jhg0013,jhp0001,2,1,35,To Trains,To Street
+jhg2f2,jhg0002,jhf0002,1,1,40,To Trains,To Street
+jhg4f2,jhg0004,jhf0002,1,1,40,To Trains,the elevator
+jhf1f2,jhf0001,jhf0002,1,1,200,To North Entrance,To South Entrance
+jhf2g14,jhf0002,jhg0014,1,1,35,the escalator,To Street
+jhf2g15,jhf0002,jhg0015,1,1,35,the stairs,To Street
+jhf2g16,jhf0002,jhg0016,1,1,10,the escalator,To Street
+jhf2g17,jhf0002,jhg0017,1,1,10,the stairs,To Street
+jhf2g18,jhf0002,jhg0018,1,1,60,the elevator,To Street
+jhg14es04p1,jhg0014,jhp0001,4,0,35,To Trains,
+jhg15st05p1,jhg0015,jhp0001,2,1,35,To Trains,To Street
+jhp1es03g16,jhp0001,jhg0016,4,0,35,To Street,
+jhg17st06p1,jhg0017,jhp0001,2,1,35,To Trains,To Street
+jhg18el03p1,jhg0018,jhp0001,5,1,30,To Trains,To Street
+jhp1s14,jhp0001,7510,1,1,5,the boarding area,the platform
