@@ -161,8 +161,8 @@ if show_population and merged is not None:
         smooth_factor=0,
     ).add_to(m)
     # Add the separate colormap control to map
-    #colormap.caption = 'Population Density (people per km²)'
-    #colormap.add_to(m)
+    colormap.caption = 'Population Density (people per km²)'
+    colormap.add_to(m)
 
 # Function to draw GTFS routes/stops
 def plot_gtfs(folder, color, label):
